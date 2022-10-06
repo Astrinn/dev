@@ -5,10 +5,10 @@ namespace Teste
     class Program
     {
         static void Main(string[ ] args){
-           Console.WriteLine("Qual seu nome?");
-           var nome = Console.ReadLine();
-           Console.WriteLine($"seu nome é " + nome);
-            
+           int inteiro = 100;
+           float real = 25.5f;
+           
+           real = inteiro; //100.0f
            
         }
     }
